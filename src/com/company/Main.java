@@ -8,8 +8,14 @@ public class Main {
         System.out.println(resul);
 
     }
-    
-    public static String veredicto(String valor1, String valor2) {
+
+    /**
+     *
+     * @param valor1: valor de la primera nota introduccida
+     * @param valor2: valor de la segunda nota introduccida
+     * @return resultado de las diferentes comparaciones de las notas realizadas. Es el dato que se devuelve al metodo main.
+     */
+    private static String veredicto(String valor1, String valor2) {
         System.out.println("valor1:  " + valor1);
         System.out.println("valor2:  " + valor2);
 
